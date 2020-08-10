@@ -14,4 +14,4 @@ Like its Streamlit counterpart, it is limited to resizing images of a certain si
 
 Example of app in use:
 
-![martymcfly](https://user-images.githubusercontent.com/3411100/86633903-38b03a00-bf9f-11ea-8b40-ebc7c28b8c1f.png)
+![martymcfly](https://user-images.githubusercontent.com/3411100/89757005-0f109400-dab2-11ea-8338-69da014cabd1.png)
