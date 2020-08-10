@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Airplanes or Automobiles - Binary Classifier</title>
+  </head>
+  <body>
+    <h1>Airplanes or Automobiles - Binary Classifier</h1>
+	<h4>This is a simple classifier that differentiates whether an object in the photograph uploaded is a plane or an automobile.</h4>
+	<p>Please upload an image (png or jpg). After that, click "Process" and it will return the classified result.</p>
+	<p>If no image submitted, there is nothing to process</p>
+	<p>File limit: 1MB</p>
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Process"></p>
+    </form>
+    {% if error %}
+        <p class=error><strong>Error:</strong> {{ error }}
+    {% endif %}
+	
+    <hr>
+      <img src="{{ url_for('upload', filename=image) }}" style="width: 512px">
+	
+	<br>
+	{{result}}
+  </body>
+</html>
