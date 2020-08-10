@@ -8,9 +8,7 @@ Dockerized/Flask Heroku app link: https://airplanes-or-cars-docker-flask.herokua
 
 Docker repo: https://hub.docker.com/repository/docker/vincelu299/airplanes-or-cars-docker-flask
 
-Like its Streamlit counterpart, it is limited to resizing images of a certain size:
-
-![martymcfly](https://user-images.githubusercontent.com/3411100/89756917-cbb62580-dab1-11ea-8ba0-fe51ab61241d.png)
+Like its Streamlit counterpart, it is limited to resizing images of a certain size - 224 * 224 * 3:
 
 Example of app in use:
 
