@@ -10,6 +10,8 @@ Docker repo: https://hub.docker.com/repository/docker/vincelu299/airplanes-or-ca
 
 Like its Streamlit counterpart, it is limited to resizing images of a certain size - 224 * 224 * 3.
 
+I have written up a blog post on the IG Content Generator in great detail here: https://vincentlu91.github.io/2020/07/06/Image-Classification-Planes-or-Automobiles.html
+
 ### You can also set up a Docker container to run the application
 
 You can pull the docker image from the Docker Hub repository:
