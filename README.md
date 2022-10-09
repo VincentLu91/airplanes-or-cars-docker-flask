@@ -6,6 +6,10 @@ This is a case study to compare between deployment methods based on the framewor
 
 Dockerized/Flask Heroku app link: https://airplanes-or-cars-docker-flask.herokuapp.com/
 
+(October 8 2022): Starting November, Heroku's free dynos will no longer be available therefore the application can no longer run on Heroku. YouTube demo can be seen below with the application demonstration:
+
+https://youtu.be/jPelhNFDP9g
+
 Docker repo: https://hub.docker.com/repository/docker/vincelu299/airplanes-or-cars-docker-flask
 
 Like its Streamlit counterpart, it is limited to resizing images of a certain size - 224 * 224 * 3.
